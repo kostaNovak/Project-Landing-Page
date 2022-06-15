@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 
 html {
     box-sizing: border-box;
@@ -63,9 +64,11 @@ body {
 }
 .main-content img {
     margin-right: 5em;
+    
 }
 .cat-picture1 {
     width: 30%;
+    max-width: 100%;
 }
 .hero-button {
     background-color: #3882F6;
@@ -73,4 +76,77 @@ body {
     color: white;
     border-radius: 5px;
     border-width: 0px;
+}
+.information {
+    margin-bottom: 5em;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.information-content h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 36px;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.card p {
+    text-align: center;
+    width: 70%;
+}
+.quote {
+    background-color: #E5E7EB;
+}
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-content h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 2.5em;
+    width: 60%;
+}
+.quote-content span {
+    padding-bottom: 4em;
+    display: block;
+    align-self: flex-end;
+    margin-right: 13em;
+}
+.sign-up .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5em auto;
+}
+.sign-up-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5em auto;
+    padding: 30px;
+}
+.sign-up__right a {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 3px 25px;
+    border-radius: 5px;
+    
+}
+.sign-up__left {
+    color: white;
 }
